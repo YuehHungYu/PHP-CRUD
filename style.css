@@ -1,0 +1,58 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo_done{
+  margin-top: 0.5rem;
+}
+
+.todo_content{
+  font-size: 20px;
+  padding-right: 150px;
+}
+
+.todo_edit{
+  position: absolute;
+  right: 65px;
+  top: 0;
+  display: inline-block;
+}
+
+.todo_delete {
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: inline-block;
+    }
+
+    .editing_background {
+      display: none;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      z-index: 1001;
+      -moz-opacity: 0.8;
+      opacity: .80;
+      filter: alpha(opacity=88);
+    }
+
+    .editing_area {
+      display: none;
+      position: absolute;
+      top: 25%;
+      left: 25%;
+      width: 55%;
+      padding: 20px;
+      border: 10px solid aquamarine;
+      border-radius: 10px;
+      background-color: white;
+      z-index: 1002;
+      overflow: auto;
+    }
+
+    .editing_cancel {
+      margin-top: 20px;
+    }
